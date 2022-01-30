@@ -1,4 +1,5 @@
 ﻿using System;
+using Board;
 
 namespace ProgramXadrez
 {
@@ -6,7 +7,14 @@ namespace ProgramXadrez
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Position p;
+
+            p = new Position(3, 4);
+
+            Console.WriteLine("Posição " + p);
+
+
+
         }
     }
 }
