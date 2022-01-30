@@ -1,5 +1,5 @@
 ﻿using System;
-using Board;
+using board;
 
 namespace ProgramXadrez
 {
@@ -13,7 +13,7 @@ namespace ProgramXadrez
 
             Console.WriteLine("Posição " + p);
 
-
+            Board board = new Board(10, 3);
 
         }
     }
