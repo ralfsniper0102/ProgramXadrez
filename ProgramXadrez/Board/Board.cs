@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿ 
+
+
 
 namespace board
 {
@@ -23,6 +21,13 @@ namespace board
         {
             return Pieces[line, column];
              
+        }
+
+        public void PutPiece(Piece piece, Position position)
+        {
+            Pieces[position.Line, position.Column] = piece;
+            piece.Position = position;
+
         }
 
 

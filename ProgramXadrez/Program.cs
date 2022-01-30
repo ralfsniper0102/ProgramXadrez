@@ -9,6 +9,8 @@ namespace ProgramXadrez
         {
             Board board = new Board(8, 8);
 
+            board.PutPiece()
+
             Screen.PrintBoard(board);
         }
     }

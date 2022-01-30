@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using board;
 
-namespace ProgramXadrez.xadrez
+namespace xadrez
 {
-    internal class King
+    class King : Piece
     {
+        
     }
 }
