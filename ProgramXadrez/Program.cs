@@ -7,14 +7,9 @@ namespace ProgramXadrez
     {
         static void Main(string[] args)
         {
-            Position p;
+            Board board = new Board(8, 8);
 
-            p = new Position(3, 4);
-
-            Console.WriteLine("Posição " + p);
-
-            Board board = new Board(10, 3);
-
+            Screen.PrintBoard(board);
         }
     }
 }
