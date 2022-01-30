@@ -19,7 +19,7 @@ namespace Board
 
         public override string ToString()
         {
-            return base.ToString();
+            return Line + ", " + Column;
         }
     }
 }
